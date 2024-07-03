@@ -24,7 +24,6 @@ window.onscroll = () => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
-            // upr tk done 
             // active sections for animation on scroll
             sec.classList.add('show-animate');
         }
